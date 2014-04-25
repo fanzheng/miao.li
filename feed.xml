@@ -4,10 +4,10 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://miao.li/feed.xml" />
 <link rel="alternate" type="text/html" href="http://miao.li" />
-<updated>2014-04-25T23:40:21+08:00</updated>
+<updated>2014-04-25T23:55:53+08:00</updated>
 <id>http://miao.li/</id>
 <author>
-  <name>zhimiao l.</name>
+  <name>李志渺</name>
   <uri>http://miao.li/</uri>
   <email>zhi@miao.li</email>
 </author>
@@ -20,7 +20,7 @@
   <published>2014-04-25T00:00:00+08:00</published>
   <updated>2014-04-25T00:00:00+08:00</updated>
   <author>
-    <name>zhimiao l.</name>
+    <name>李志渺</name>
     <uri>http://miao.li</uri>
     <email>zhi@miao.li</email>
   </author>
@@ -36,7 +36,7 @@
 
 &lt;p&gt;这个app现在是0.99美元促销，可能在Mac上购买了就可以入手了，其他的话，觉得这个比较糟糕，买Notability比较好。&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/notesuite-review/&quot;&gt; Notesuite 上手&lt;/a&gt; was originally published by zhimiao l. at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on April 25, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/notesuite-review/&quot;&gt; Notesuite 上手&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on April 25, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -47,7 +47,7 @@
   <published>2014-04-22T00:00:00+08:00</published>
   <updated>2014-04-22T00:00:00+08:00</updated>
   <author>
-    <name>zhimiao l.</name>
+    <name>李志渺</name>
     <uri>http://miao.li</uri>
     <email>zhi@miao.li</email>
   </author>
@@ -60,34 +60,34 @@
       &lt;li&gt;&lt;a href=&quot;#section-3&quot;&gt;提供足够的信息&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#section-4&quot;&gt;搜索－再搜索&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href=&quot;#section-5&quot;&gt;有意识的提高自己获取信息的能力&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-6&quot;&gt;怎样使用宏&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-7&quot;&gt;什么是宏&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#vba&quot;&gt;宏和VBA&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-8&quot;&gt;录制宏&lt;/a&gt;            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;#section-9&quot;&gt;设置单元格格式宏&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section-6&quot;&gt;怎样使用宏&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-7&quot;&gt;什么是宏&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#vba&quot;&gt;宏和VBA&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-8&quot;&gt;录制宏&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#section-9&quot;&gt;设置单元格格式宏&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#excel-&quot;&gt;Excel 用户界面&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#ribbon-design&quot;&gt;Ribbon Design&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#ribbon&quot;&gt;详细介绍Ribbon&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#quick-access-bar&quot;&gt;快速访问栏 (Quick Access Bar)&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#ribbon-1&quot;&gt;工具栏 （ Ribbon）&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-10&quot;&gt;名称和公式栏&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-11&quot;&gt;数据区域&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#status-bar&quot;&gt;状态栏 （Status Bar）&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#excel-&quot;&gt;Excel 用户界面&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#ribbon-design&quot;&gt;Ribbon Design&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ribbon&quot;&gt;详细介绍Ribbon&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#quick-access-bar&quot;&gt;快速访问栏 (Quick Access Bar)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ribbon-1&quot;&gt;工具栏 （ Ribbon）&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-10&quot;&gt;名称和公式栏&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-11&quot;&gt;数据区域&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#status-bar&quot;&gt;状态栏 （Status Bar）&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#section-12&quot;&gt;公式和函数&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#section-13&quot;&gt;理解公式和函数&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#section-14&quot;&gt;公式&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#section-15&quot;&gt;函数&lt;/a&gt;&lt;/li&gt;
         &lt;/ul&gt;
       &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#section-12&quot;&gt;公式和函数&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#section-13&quot;&gt;理解公式和函数&lt;/a&gt;            &lt;ul&gt;
-              &lt;li&gt;&lt;a href=&quot;#section-14&quot;&gt;公式&lt;/a&gt;&lt;/li&gt;
-              &lt;li&gt;&lt;a href=&quot;#section-15&quot;&gt;函数&lt;/a&gt;&lt;/li&gt;
-            &lt;/ul&gt;
-          &lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#kbdtabkbd&quot;&gt;输入公式的技巧 - 使用&lt;kbd&gt;Tab&lt;/kbd&gt;键&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#kbdtabkbd&quot;&gt;输入公式的技巧 - 使用&lt;kbd&gt;Tab&lt;/kbd&gt;键&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -96,7 +96,7 @@
   &lt;li&gt;这个是Excel分享会的讲稿，还在写，图片也没有传到网上，将会后续更新，请期待。&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h1 id=&quot;section-1&quot;&gt;搜索&lt;/h1&gt;
+&lt;h2 id=&quot;section-1&quot;&gt;搜索&lt;/h2&gt;
 &lt;p&gt;上大学的时候，每次上课，我发现我第一节课总是能认真的听，而后面则总是容易犯困，所以，我今天开始讲的是我觉得最有用的，而我觉得最通用的一个就是搜索。&lt;/p&gt;
 
 &lt;p&gt;有的时候，别人问我很多问题，我自己也不知道答案，但是我也得回答，我得自己寻找答案，在网上寻找答案，使用搜索。所以，下面就是我的搜索技巧分享。&lt;/p&gt;
@@ -292,7 +292,7 @@ End Function
   &lt;/ol&gt;
 &lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/understanding_excel/&quot;&gt;理解Excel&lt;/a&gt; was originally published by zhimiao l. at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on April 22, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/understanding_excel/&quot;&gt;理解Excel&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on April 22, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -303,7 +303,7 @@ End Function
   <published>2014-03-30T00:00:00+08:00</published>
   <updated>2014-03-30T00:00:00+08:00</updated>
   <author>
-    <name>zhimiao l.</name>
+    <name>李志渺</name>
     <uri>http://miao.li</uri>
     <email>zhi@miao.li</email>
   </author>
@@ -331,7 +331,7 @@ End Function
 &lt;p&gt;编辑博客的话，在Mac上使用的是Mou这个编辑器，在iPad上使用editorial这个编辑器，在手机上使用draft。使用Dropbox同步，在Mac上#使用&lt;code&gt;jekyll build&lt;/code&gt;后用source tree更新到GitHub Page上。&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/how-i-build-this-blog/&quot;&gt;这个博客怎样建立的&lt;/a&gt; was originally published by zhimiao l. at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on March 30, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/how-i-build-this-blog/&quot;&gt;这个博客怎样建立的&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on March 30, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -342,7 +342,7 @@ End Function
   <published>2014-03-20T00:00:00+08:00</published>
   <updated>2014-03-20T00:00:00+08:00</updated>
   <author>
-    <name>zhimiao l.</name>
+    <name>李志渺</name>
     <uri>http://miao.li</uri>
     <email>zhi@miao.li</email>
   </author>
@@ -384,7 +384,7 @@ End Function
 &lt;p&gt;这个不是一个软件，而是软件和硬件都有，就现在智能设备的发展速度看，过几年几乎所有公司都会有这样一个东西了。
 买一个硬件记录你每天走的步数，爬的楼梯，消耗的卡路里，也是一个监督自己进步的方法。&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/android-app-for-getting-fit/&quot;&gt; 锻炼的App - 安卓版&lt;/a&gt; was originally published by zhimiao l. at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on March 20, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/android-app-for-getting-fit/&quot;&gt; 锻炼的App - 安卓版&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on March 20, 2014.&lt;/p&gt;</content>
 </entry>
 
 
@@ -395,7 +395,7 @@ End Function
   <published>2012-11-03T00:00:00+08:00</published>
   <updated>2012-11-03T00:00:00+08:00</updated>
   <author>
-    <name>zhimiao l.</name>
+    <name>李志渺</name>
     <uri>http://miao.li</uri>
     <email>zhi@miao.li</email>
   </author>
@@ -445,7 +445,7 @@ End Function
   &lt;/ol&gt;
 &lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/how-i-use-evernote/&quot;&gt;我怎样使用Evernote&lt;/a&gt; was originally published by zhimiao l. at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on November 03, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/how-i-use-evernote/&quot;&gt;我怎样使用Evernote&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on November 03, 2012.&lt;/p&gt;</content>
 </entry>
 
 
@@ -456,13 +456,13 @@ End Function
   <published>2012-08-03T00:00:00+08:00</published>
   <updated>2012-08-03T00:00:00+08:00</updated>
   <author>
-    <name>zhimiao l.</name>
+    <name>李志渺</name>
     <uri>http://miao.li</uri>
     <email>zhi@miao.li</email>
   </author>
   <content type="html">&lt;p&gt;Markdown is invented to write without a WYSIWYG editor,and Sublime Text 2 is really ‘the editor’ for us,it’s fast cross-platform,full-featured code editor. it is easy to write a plugin using the python api. I wrote this plugin so that I can write using markdown and copy it to my this blog. I use Markdown2 module to convert mardown to HTML. it support footnote and simple table. details are here: &lt;a href=&quot;http://timewilltell.me/node/14&quot;&gt;http://timewilltell.me/node/14&lt;/a&gt;   anyone think of a better name for this plugin?&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/markdown-to-clipboard/&quot;&gt;Markdown to Clipboard - a simple Sublime Text plugin&lt;/a&gt; was originally published by zhimiao l. at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on August 03, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/markdown-to-clipboard/&quot;&gt;Markdown to Clipboard - a simple Sublime Text plugin&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on August 03, 2012.&lt;/p&gt;</content>
 </entry>
 
 
@@ -473,7 +473,7 @@ End Function
   <published>2012-03-23T00:00:00+08:00</published>
   <updated>2012-03-23T00:00:00+08:00</updated>
   <author>
-    <name>zhimiao l.</name>
+    <name>李志渺</name>
     <uri>http://miao.li</uri>
     <email>zhi@miao.li</email>
   </author>
@@ -484,7 +484,7 @@ End Function
 &lt;p&gt;下载&lt;br /&gt;
  &lt;a href=&quot;http://neosmart.net/EasyBCD/&quot;&gt;neosmart.net/EasyBCD/&lt;/a&gt;&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/easybcd/&quot;&gt;EasyBCD - 超强大的启动项管理工具&lt;/a&gt; was originally published by zhimiao l. at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on March 23, 2012.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/easybcd/&quot;&gt;EasyBCD - 超强大的启动项管理工具&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on March 23, 2012.&lt;/p&gt;</content>
 </entry>
 
 
@@ -495,7 +495,7 @@ End Function
   <published>2011-08-08T00:00:00+08:00</published>
   <updated>2011-08-08T00:00:00+08:00</updated>
   <author>
-    <name>zhimiao l.</name>
+    <name>李志渺</name>
     <uri>http://miao.li</uri>
     <email>zhi@miao.li</email>
   </author>
@@ -508,7 +508,7 @@ End Function
 
 &lt;p&gt;只要在CHM上右击，选择使用7-zip打开，然后就可以看到里面的内容，解压出来看就好了。&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/use-7-zip-to-open-chm-file/&quot;&gt;使用7-zip来反编译CHM文件&lt;/a&gt; was originally published by zhimiao l. at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on August 08, 2011.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/use-7-zip-to-open-chm-file/&quot;&gt;使用7-zip来反编译CHM文件&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on August 08, 2011.&lt;/p&gt;</content>
 </entry>
 
 </feed>
