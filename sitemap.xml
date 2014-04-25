@@ -1,70 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc></loc>
+        <loc>http://miao.li</loc>
     </url>
     
     
     <url>
-        <loc>/about/</loc>
+        <loc>http://miao.li/404.html</loc>
     </url>
     
     <url>
-        <loc>/feed.xml</loc>
+        <loc>http://miao.li/about/</loc>
     </url>
     
     <url>
-        <loc>/index.html</loc>
+        <loc>http://miao.li/feed.xml</loc>
     </url>
     
     <url>
-        <loc>/posts/</loc>
+        <loc>http://miao.li/index.html</loc>
     </url>
     
     <url>
-        <loc>/sitemap.xml</loc>
+        <loc>http://miao.li/posts/</loc>
     </url>
     
     <url>
-        <loc>/tags/</loc>
+        <loc>http://miao.li/sitemap.xml</loc>
     </url>
     
     <url>
-        <loc>/page2/index.html</loc>
+        <loc>http://miao.li/tags/</loc>
+    </url>
+    
+    <url>
+        <loc>http://miao.li/page2/index.html</loc>
     </url>
     
 
     
     <url>
-        <loc>/notesuite-review.md/</loc>
+        <loc>http://miao.li/notesuite-review/</loc>
     </url>
     
     <url>
-        <loc>/understanding_excel/</loc>
+        <loc>http://miao.li/hello/</loc>
     </url>
     
     <url>
-        <loc>/how-i-build-this-blog/</loc>
+        <loc>http://miao.li/understanding_excel/</loc>
     </url>
     
     <url>
-        <loc>/android-app-for-getting-fit/</loc>
+        <loc>http://miao.li/how-i-build-this-blog/</loc>
     </url>
     
     <url>
-        <loc>/how+i+use+evernote/</loc>
+        <loc>http://miao.li/android-app-for-getting-fit/</loc>
     </url>
     
     <url>
-        <loc>/markdown-to-clipboard/</loc>
+        <loc>http://miao.li/how-i-use-evernote/</loc>
     </url>
     
     <url>
-        <loc>/easybcd/</loc>
+        <loc>http://miao.li/markdown-to-clipboard/</loc>
     </url>
     
     <url>
-        <loc>/use-7-zip-to-open-chm-file/</loc>
+        <loc>http://miao.li/easybcd/</loc>
+    </url>
+    
+    <url>
+        <loc>http://miao.li/use-7-zip-to-open-chm-file/</loc>
     </url>
     
 </urlset>

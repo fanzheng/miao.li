@@ -5,30 +5,30 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>这个博客怎样建立的 &#8211; Excel</title>
-<meta name="description" content="">
+<title>我怎样使用Evernote &#8211; Excel</title>
+<meta name="description" content="Excel everything">
 <meta name="keywords" content="">
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="http://miao.li/images/">
-<meta name="twitter:title" content="这个博客怎样建立的">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="我怎样使用Evernote">
+<meta name="twitter:description" content="Excel everything">
 <meta name="twitter:creator" content="@_3ry">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="这个博客怎样建立的">
-<meta property="og:description" content="">
-<meta property="og:url" content="http://miao.li/how-i-build-this-blog/">
+<meta property="og:title" content="我怎样使用Evernote">
+<meta property="og:description" content="Excel everything">
+<meta property="og:url" content="http://miao.li/how-i-use-evernote/">
 <meta property="og:site_name" content="Excel">
 
 
 
 
 
-<link rel="canonical" href="http://miao.li/how-i-build-this-blog/">
+<link rel="canonical" href="http://miao.li/how-i-use-evernote/">
 <link href="http://miao.li/feed.xml" type="application/atom+xml" rel="alternate" title="Excel Feed">
 
 
@@ -122,39 +122,61 @@
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="http://miao.li/how-i-build-this-blog/" rel="bookmark" title="这个博客怎样建立的">这个博客怎样建立的</a></h1>
+          <h1 class="entry-title"><a href="http://miao.li/how-i-use-evernote/" rel="bookmark" title="我怎样使用Evernote">我怎样使用Evernote</a></h1>
         
-        <h2>March 30, 2014</h2>
+        <h2>November 03, 2012</h2>
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>这个博客是使用的Jekyll建立的，放在Github上。因为对git命令不是很熟，所以还是用的SourceTree来提交更新。</p>
+      <ul id="markdown-toc">
+  <li><a href="#section">我怎样用</a></li>
+  <li><a href="#section-1">为什么这样</a></li>
+  <li><a href="#vs">离线vs在线</a></li>
+  <li><a href="#section-2">具体使用</a></li>
+  <li><a href="#section-3">总结</a></li>
+</ul>
 
-<h2 id="jekyll">具体怎样安装jekyll</h2>
-<p>因为我是用的OS X，系统自带了Ruby，所以，使用</p>
+<h2 id="section">我怎样用</h2>
+<p>evernote作为大家都非常推崇的软件[或者说服务]我也是很久之前就开始用，现在我有两个账户，一个主要账户，用的是evernote international<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>版本的账户。一个存档账户，用的是印象笔记账户。</p>
 
-<pre><code>sudo gem install jekyll
-</code></pre>
+<h2 id="section-1">为什么这样</h2>
+<p>我用Gmail的习惯就是把收件箱清空，每处理完一封邮件就把它存档，看到收件箱是空的的确让人有成就感。
+同样的，我不敢把太多的笔记堆积在我的evernote笔记中。</p>
 
-<p>就可以安装jekyll了</p>
+<p>你为什么做笔记？因为我想等下回来再阅读复习背诵。有的东西或许只是收藏备查。把笔记积累的太多也会让我有压力。所以，每次处理完一个笔记，我把它发到印象笔记的电子邮箱里面。然后再把这条笔记删掉。当然，这条笔记在我的印象笔记账户中好友。</p>
 
-<pre><code>jekyll new blog
-</code></pre>
+<h2 id="vs">离线vs在线</h2>
+<p>由于有两个账户，你可能会问，我怎么管理两个账户，我的建议是不管理。你只要维护一个账户就好了，evernote笔记有开放api，可以用ifttt等服务，所以这个用客户端管理，而印象笔记服务器在国内，作为存档账户，你只在需要的时候去访问web端就好，我也喜欢用文件夹用标签分类笔记，电子邮件也支持给笔记分配文件夹和标签。但是同时，你可以搜索，evernote的全文搜索功能可以用。</p>
 
-<p>新建一个文件夹，在<code>blog</code>文件夹中放置你的博客。
-在网上下载主题。</p>
+<h2 id="section-2">具体使用</h2>
+<p>新的笔记全部都放到常用的账户里面，新写的笔记，用Clear
+从常用的账户用分享功能使用邮件的方式发送到存档账户
+<img src="http://ww4.sinaimg.cn/large/7316e2d8jw1dyi4420xg1j.jpg" alt="分享" />
+存档账户的邮件地址可以在设置或者账户信息里面看到。
+管理存档账户可以使用<a href="https://app.yinxiang.com/Home.action">web端</a>
+而给笔记分类和添加标签也可以使用邮件功能实现</p>
 
-<pre><code>jekyll serve
-</code></pre>
+<blockquote>
+  <p>笔记本用 @ ：在@后，列出想发送到的那个笔记本的名称
+标签用＃： 在＃后， 列出一个或多个你希望给这个笔记加上的标签，你可以加多个标签，但请确保每一个标签以＃开始。</p>
+</blockquote>
 
-<p>在本地创建和预览你的博客。满意后，将博客传到如github pages上。</p>
+<p><a href="http://blog.yinxiang.com/blog/2012/05/15/email-yinxiang/"><img src="http://blog.yinxiang.com/wp-content/uploads/2012/05/email.jpg" alt="" /></a></p>
 
-<p>编辑博客的话，在Mac上使用的是Mou这个编辑器，在iPad上使用editorial这个编辑器，在手机上使用draft。使用Dropbox同步，在Mac上#使用<code>jekyll build</code>后用source tree更新到GitHub Page上。</p>
+<h2 id="section-3">总结</h2>
+<p>我只把在做的事情放在桌面上，而处理完的内容放在书柜里，只有在需要的时候去寻找。</p>
 
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>最近由于国际版真的是太慢了，已经换到印象笔记了。 <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
       <footer class="entry-meta">
         <span class="entry-tags"></span>
-        <span><a href="http://miao.li/how-i-build-this-blog/" rel="bookmark" title="这个博客怎样建立的">这个博客怎样建立的</a> was published on <span class="entry-date date published updated"><time datetime="2014-03-30T00:00:00+08:00">March 30, 2014</time></span></span>
+        <span><a href="http://miao.li/how-i-use-evernote/" rel="bookmark" title="我怎样使用Evernote">我怎样使用Evernote</a> was published on <span class="entry-date date published updated"><time datetime="2012-11-03T00:00:00+08:00">November 03, 2012</time></span></span>
         
         <span class="author vcard"><span class="fn"><a href="http://miao.li/about/" title="About zhimiao li">zhimiao li</a></span></span>
         
@@ -165,7 +187,7 @@
     <div class="read-more">
       
         <div class="read-more-header">
-          <a href="http://miao.li/android-app-for-getting-fit/" class="read-more-btn">Read More</a>
+          <a href="http://miao.li/markdown-to-clipboard/" class="read-more-btn">Read More</a>
         </div><!-- /.read-more-header -->
         <div class="read-more-content">
           <h3><a href="http://miao.li/notesuite-review/" title=" Notesuite 上手"> Notesuite 上手</a></h3>
