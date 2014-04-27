@@ -5,31 +5,30 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>Carousel - 你生命所有重要瞬间，在云端 &#8211; Excel</title>
-<meta name="description" content="使用云存储备份所有重要的照片">
+<title>Excel只选择可视区域 &#8211; Excel</title>
+<meta name="description" content="让Excel只选中可视区域，筛选的区域或者隐藏的区域不会被选择。">
 <meta name="keywords" content="">
 
 <!-- Twitter Cards -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://www.carousel.com/static/images/carousel/thumbs_cover-vflW62U_3.png">
-
-<meta name="twitter:title" content="Carousel - 你生命所有重要瞬间，在云端">
-<meta name="twitter:description" content="使用云存储备份所有重要的照片">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://miao.li/images/">
+<meta name="twitter:title" content="Excel只选择可视区域">
+<meta name="twitter:description" content="让Excel只选中可视区域，筛选的区域或者隐藏的区域不会被选择。">
 <meta name="twitter:creator" content="@_3ry">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Carousel - 你生命所有重要瞬间，在云端">
-<meta property="og:description" content="使用云存储备份所有重要的照片">
-<meta property="og:url" content="http://miao.li/net/all-your-photos-on-cloud/">
+<meta property="og:title" content="Excel只选择可视区域">
+<meta property="og:description" content="让Excel只选中可视区域，筛选的区域或者隐藏的区域不会被选择。">
+<meta property="og:url" content="http://miao.li/excel/how-to-select-visible-area-only/">
 <meta property="og:site_name" content="Excel">
 
 
 
 
 
-<link rel="canonical" href="http://miao.li/net/all-your-photos-on-cloud/">
+<link rel="canonical" href="http://miao.li/excel/how-to-select-visible-area-only/">
 <link href="http://miao.li/feed.xml" type="application/atom+xml" rel="alternate" title="Excel Feed">
 <link rel="author" href="https://plus.google.com/104973030351788858578?rel=author">
 
@@ -66,7 +65,7 @@
 
 </head>
 
-<body id="post" class="feature">
+<body id="post" >
 
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
@@ -119,57 +118,37 @@
 
 
 
-<div class="entry-header">
-  
-  <div class="entry-image">
-    <img src="https://www.carousel.com/static/images/carousel/thumbs_cover-vflW62U_3.png" alt="Carousel - 你生命所有重要瞬间，在云端">
-  </div><!-- /.entry-image -->
-</div><!-- /.entry-header -->
-
 
 <div id="main" role="main">
   <article class="hentry">
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="http://miao.li/net/all-your-photos-on-cloud/" rel="bookmark" title="Carousel - 你生命所有重要瞬间，在云端">Carousel - 你生命所有重要瞬间，在云端</a></h1>
+          <h1 class="entry-title"><a href="http://miao.li/excel/how-to-select-visible-area-only/" rel="bookmark" title="Excel只选择可视区域">Excel只选择可视区域</a></h1>
         
-        <h2>April 27, 2014</h2>
+        <h2>April 26, 2014</h2>
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>前面也注册了<a href="http://loom.com">Loom</a>，Loom是一个基于云的图片存储服务，然后早几天收到Loom的邮件，说Loom加入了<a href="https://dropbox.com/">Dropbox</a>，而在前面Dropbox也发布了<a href="https://carousel.com/">Carousel</a>，可以推测是Dropbox想做一个单独的相册工具，于是收购了Loom，在此之前Dropbox已经有Camera Upload功能。</p>
+      <p>昨天需要加工一个数据，是一些数据的单位有问题，大部分的数据是用的单位吨，而一部分数据使用的是单位吨，所以有1000倍的差距，需要手工修改，是的，使用Excel的<code>选择性粘贴</code>实现，方法是</p>
 
-<p>现在Dropbox发布了一个单独的App，可以浏览你保存的所有图片。使用类似时间线的方式呈现，方便你看以前的重要照片。</p>
+<ol>
+  <li>筛选需要操作的数据</li>
+  <li>在一个空白位置输入1000</li>
+  <li>选择需要修改的区域，然后右击选择<code>选择性粘贴</code></li>
+  <li>在选择性粘贴的对话框中选择除</li>
+</ol>
 
-<blockquote>
-  <p>Carousel puts a lifetime of memories at your fingertips and keeps them safe forever in Dropbox.</p>
-</blockquote>
+<p><img src="http://miaoblog.qiniudn.com/201404excelPasteSpecial.png" alt="选择性粘贴" /></p>
 
-<p>Loom 会在5月16日彻底关闭，你可以选择从Loom导出到Carousel，Loom里面的免费空间也会加到的Dropbox空间，我的就加了5G空间。或者下载所有照片作为一个zip文件。</p>
+<p>但是，仅仅有一个问题，操作之后呢发现筛选出去的数据也除了1000，我第一次操作没有意识到有这个问题，所以，做出来的数据又全部有问题。这个问题怎么解决呢？方法就是 <kbd>ALT</kbd>+<kbd>;</kbd>键。
+这个快捷键会让Excel只选中可视区域，筛选的区域或者隐藏的区域不会被选择，所以这样操作的时候不会有问题。</p>
 
-<p><img src="http://ww3.sinaimg.cn/large/7316e2d8gw1efuaicv6j6j20ro07fmxu.jpg" alt="&quot;增加5G空间&quot;" /></p>
-
-<p>我觉得手机里面最重要的两个东西，一个是联系人，一个是手机拍的照片和视频，虽然我不是一个喜欢拍照片的人，如果手机丢了，但是还有这两个重要资料的话，也不会太伤心，联系人我是使用的Google的备份服务<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>，照片现在使用的Dropbox的Camera Upload，而如果你安装了Carousel的话，Dropbox会把照片上传工作交给Carousel。</p>
-
-<p>Carousel目前有Android和iPhone版本，还不支持iPad啊。</p>
-
-<p>Carousel也引入了社交属性，如果方便的共享和查看好友共享的图片，将好友共享的照片存入自己的Dropbox中。</p>
-
-<p>注册一个Dropbox账号吧 <a href="https://db.tt/DLjwIHX">https://db.tt/DLjwIHX</a></p>
-
-<div class="footnotes">
-  <ol>
-    <li id="fn:1">
-      <p>有Google服务框架，系统自己带的，而且谷歌联系人和Gmail联系人同步，也可以找回删掉的联系人。 <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
-    </li>
-  </ol>
-</div>
 
       <footer class="entry-meta">
         <span class="entry-tags"></span>
-        <span><a href="http://miao.li/net/all-your-photos-on-cloud/" rel="bookmark" title="Carousel - 你生命所有重要瞬间，在云端">Carousel - 你生命所有重要瞬间，在云端</a> was published on <span class="entry-date date published updated"><time datetime="2014-04-27T00:00:00+08:00">April 27, 2014</time></span></span>
-        (revised: <span class="entry-date date modified"><time datetime="2014-04-27 11:03 +0800">04/27/2014</time></span>)
+        <span><a href="http://miao.li/excel/how-to-select-visible-area-only/" rel="bookmark" title="Excel只选择可视区域">Excel只选择可视区域</a> was published on <span class="entry-date date published updated"><time datetime="2014-04-26T00:00:00+08:00">April 26, 2014</time></span></span>
+        (revised: <span class="entry-date date modified"><time datetime="2014-04-27 02:03 +0800">04/27/2014</time></span>)
         <span class="author vcard"><span class="fn"><a href="http://miao.li/about/" title="About 李志渺">李志渺</a></span></span>
         <div class="social-share">
           <div class="bdsharebuttonbox">
@@ -193,7 +172,7 @@
     <div class="read-more">
       
         <div class="read-more-header">
-          <a href="http://miao.li/excel/how-to-select-visible-area-only/" class="read-more-btn">Read More</a>
+          <a href="http://miao.li/ios/notesuite-review.md/" class="read-more-btn">Read More</a>
         </div><!-- /.read-more-header -->
         <div class="read-more-content">
           <h3><a href="http://miao.li/excel/vba-close-workbook-error/" title="Excel VBA关闭文件遇到错误的解决方法">Excel VBA关闭文件遇到错误的解决方法</a></h3>
@@ -203,8 +182,8 @@
       <div class="read-more-list">
         
           <div class="list-item">
-            <h4><a href="http://miao.li/excel/how-to-select-visible-area-only/" title="Excel只选择可视区域">Excel只选择可视区域</a></h4>
-            <span>Published on April 26, 2014</span>
+            <h4><a href="http://miao.li/net/all-your-photos-on-cloud/" title="Carousel - 你生命所有重要瞬间，在云端">Carousel - 你生命所有重要瞬间，在云端</a></h4>
+            <span>Published on April 27, 2014</span>
           </div><!-- /.list-item -->
         
           <div class="list-item">

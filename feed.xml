@@ -4,13 +4,42 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://miao.li/feed.xml" />
 <link rel="alternate" type="text/html" href="http://miao.li" />
-<updated>2014-04-27T14:55:08+08:00</updated>
+<updated>2014-04-27T22:49:10+08:00</updated>
 <id>http://miao.li/</id>
 <author>
   <name>李志渺</name>
   <uri>http://miao.li/</uri>
   <email>zhi@miao.li</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Excel VBA关闭文件遇到错误的解决方法]]></title>
+ <link rel="alternate" type="text/html" href="http://miao.li/excel/vba-close-workbook-error/" />
+  <id>http://miao.li/excel/vba-close-workbook-error</id>
+  <updated>2014-04-27 02:03 +0800T00:00:00-00:00</updated>
+  <published>2014-04-27T00:00:00+08:00</published>
+  
+  <author>
+    <name>李志渺</name>
+    <uri>http://miao.li</uri>
+    <email>zhi@miao.li</email>
+  </author>
+  <content type="html">&lt;p&gt;使用VBA关闭打开的工作簿时候遇到问题。不能关闭工作簿。遇到这个错误的时候，可能需要有这几个方向想。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;使用 &lt;code&gt;application.displayalert = false&lt;/code&gt; ，这样是不显示警告信息，例如是否保存工作簿。&lt;/li&gt;
+  &lt;li&gt;可以使用&lt;code&gt;workbookobjectname.saved = true&lt;/code&gt;来让Excel强制认为workbookobject这个工作表已经保存。&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;workbookobjectname.activate&lt;/code&gt;先将需要关闭的活动工作簿设为活动工作簿。&lt;/li&gt;
+  &lt;li&gt;关闭的时候 &lt;code&gt;workbookobjectname.close(0)&lt;/code&gt;,其中的0也是&lt;code&gt;savechanges:=false&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;上面的&lt;code&gt;workbookobjectname&lt;/code&gt;是你的工作簿对象的名称。&lt;/p&gt;
+
+&lt;p&gt;一般来说，第四种方法是最直接有用的，但是，有的时候，却还是关不了，试验了很多次后，发现使用配合使用第3个方法非常有效的。&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/excel/vba-close-workbook-error/&quot;&gt;Excel VBA关闭文件遇到错误的解决方法&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on April 27, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -35,6 +64,8 @@
 
 &lt;p&gt;Loom 会在5月16日彻底关闭，你可以选择从Loom导出到Carousel，Loom里面的免费空间也会加到的Dropbox空间，我的就加了5G空间。或者下载所有照片作为一个zip文件。&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/large/7316e2d8gw1efuaicv6j6j20ro07fmxu.jpg&quot; alt=&quot;&amp;quot;增加5G空间&amp;quot;&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;我觉得手机里面最重要的两个东西，一个是联系人，一个是手机拍的照片和视频，虽然我不是一个喜欢拍照片的人，如果手机丢了，但是还有这两个重要资料的话，也不会太伤心，联系人我是使用的Google的备份服务&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;，照片现在使用的Dropbox的Camera Upload，而如果你安装了Carousel的话，Dropbox会把照片上传工作交给Carousel。&lt;/p&gt;
 
 &lt;p&gt;Carousel目前有Android和iPhone版本，还不支持iPad啊。&lt;/p&gt;
@@ -52,6 +83,37 @@
 &lt;/div&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://miao.li/net/all-your-photos-on-cloud/&quot;&gt;Carousel - 你生命所有重要瞬间，在云端&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on April 27, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Excel只选择可视区域]]></title>
+ <link rel="alternate" type="text/html" href="http://miao.li/excel/how-to-select-visible-area-only/" />
+  <id>http://miao.li/excel/how-to-select-visible-area-only</id>
+  <updated>2014-04-27 02:03 +0800T00:00:00-00:00</updated>
+  <published>2014-04-26T00:00:00+08:00</published>
+  
+  <author>
+    <name>李志渺</name>
+    <uri>http://miao.li</uri>
+    <email>zhi@miao.li</email>
+  </author>
+  <content type="html">&lt;p&gt;昨天需要加工一个数据，是一些数据的单位有问题，大部分的数据是用的单位吨，而一部分数据使用的是单位吨，所以有1000倍的差距，需要手工修改，是的，使用Excel的&lt;code&gt;选择性粘贴&lt;/code&gt;实现，方法是&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;筛选需要操作的数据&lt;/li&gt;
+  &lt;li&gt;在一个空白位置输入1000&lt;/li&gt;
+  &lt;li&gt;选择需要修改的区域，然后右击选择&lt;code&gt;选择性粘贴&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;在选择性粘贴的对话框中选择除&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://miaoblog.qiniudn.com/201404excelPasteSpecial.png&quot; alt=&quot;选择性粘贴&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;但是，仅仅有一个问题，操作之后呢发现筛选出去的数据也除了1000，我第一次操作没有意识到有这个问题，所以，做出来的数据又全部有问题。这个问题怎么解决呢？方法就是 &lt;kbd&gt;ALT&lt;/kbd&gt;+&lt;kbd&gt;;&lt;/kbd&gt;键。
+这个快捷键会让Excel只选中可视区域，筛选的区域或者隐藏的区域不会被选择，所以这样操作的时候不会有问题。&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/excel/how-to-select-visible-area-only/&quot;&gt;Excel只选择可视区域&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on April 26, 2014.&lt;/p&gt;</content>
 </entry>
 
 

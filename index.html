@@ -132,6 +132,30 @@
   
 <article class="hentry">
   <header>
+    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2014-04-27T00:00:00+08:00"><a href="http://miao.li/excel/vba-close-workbook-error/">April 27, 2014</a></time></span><span class="author vcard"><span class="fn"><a href="http://miao.li/about/" title="About 李志渺">李志渺</a></span></span>&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="http://miao.li/excel/vba-close-workbook-error/#disqus_thread">Comment</a></span></div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title"><a href="http://miao.li/excel/vba-close-workbook-error/" rel="bookmark" title="Excel VBA关闭文件遇到错误的解决方法" itemprop="url">Excel VBA关闭文件遇到错误的解决方法</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    <p>使用VBA关闭打开的工作簿时候遇到问题。不能关闭工作簿。遇到这个错误的时候，可能需要有这几个方向想。</p>
+
+<ol>
+  <li>使用 <code>application.displayalert = false</code> ，这样是不显示警告信息，例如是否保存工作簿。</li>
+  <li>可以使用<code>workbookobjectname.saved = true</code>来让Excel强制认为workbookobject这个工作表已经保存。</li>
+  <li><code>workbookobjectname.activate</code>先将需要关闭的活动工作簿设为活动工作簿。</li>
+  <li>关闭的时候 <code>workbookobjectname.close(0)</code>,其中的0也是<code>savechanges:=false</code></li>
+</ol>
+
+<p>上面的<code>workbookobjectname</code>是你的工作簿对象的名称。</p>
+
+<p>一般来说，第四种方法是最直接有用的，但是，有的时候，却还是关不了，试验了很多次后，发现使用配合使用第3个方法非常有效的。</p>
+
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+
+<article class="hentry">
+  <header>
     <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2014-04-27T00:00:00+08:00"><a href="http://miao.li/net/all-your-photos-on-cloud/">April 27, 2014</a></time></span><span class="author vcard"><span class="fn"><a href="http://miao.li/about/" title="About 李志渺">李志渺</a></span></span>&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="http://miao.li/net/all-your-photos-on-cloud/#disqus_thread">Comment</a></span></div><!-- /.entry-meta -->
     
       <h1 class="entry-title"><a href="http://miao.li/net/all-your-photos-on-cloud/" rel="bookmark" title="Carousel - 你生命所有重要瞬间，在云端" itemprop="url">Carousel - 你生命所有重要瞬间，在云端</a></h1>
@@ -148,6 +172,8 @@
 
 <p>Loom 会在5月16日彻底关闭，你可以选择从Loom导出到Carousel，Loom里面的免费空间也会加到的Dropbox空间，我的就加了5G空间。或者下载所有照片作为一个zip文件。</p>
 
+<p><img src="http://ww3.sinaimg.cn/large/7316e2d8gw1efuaicv6j6j20ro07fmxu.jpg" alt="&quot;增加5G空间&quot;" /></p>
+
 <p>我觉得手机里面最重要的两个东西，一个是联系人，一个是手机拍的照片和视频，虽然我不是一个喜欢拍照片的人，如果手机丢了，但是还有这两个重要资料的话，也不会太伤心，联系人我是使用的Google的备份服务<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>，照片现在使用的Dropbox的Camera Upload，而如果你安装了Carousel的话，Dropbox会把照片上传工作交给Carousel。</p>
 
 <p>Carousel目前有Android和iPhone版本，还不支持iPad啊。</p>
@@ -163,6 +189,32 @@
     </li>
   </ol>
 </div>
+
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+
+<article class="hentry">
+  <header>
+    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2014-04-26T00:00:00+08:00"><a href="http://miao.li/excel/how-to-select-visible-area-only/">April 26, 2014</a></time></span><span class="author vcard"><span class="fn"><a href="http://miao.li/about/" title="About 李志渺">李志渺</a></span></span>&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="http://miao.li/excel/how-to-select-visible-area-only/#disqus_thread">Comment</a></span></div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title"><a href="http://miao.li/excel/how-to-select-visible-area-only/" rel="bookmark" title="Excel只选择可视区域" itemprop="url">Excel只选择可视区域</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    <p>昨天需要加工一个数据，是一些数据的单位有问题，大部分的数据是用的单位吨，而一部分数据使用的是单位吨，所以有1000倍的差距，需要手工修改，是的，使用Excel的<code>选择性粘贴</code>实现，方法是</p>
+
+<ol>
+  <li>筛选需要操作的数据</li>
+  <li>在一个空白位置输入1000</li>
+  <li>选择需要修改的区域，然后右击选择<code>选择性粘贴</code></li>
+  <li>在选择性粘贴的对话框中选择除</li>
+</ol>
+
+<p><img src="http://miaoblog.qiniudn.com/201404excelPasteSpecial.png" alt="选择性粘贴" /></p>
+
+<p>但是，仅仅有一个问题，操作之后呢发现筛选出去的数据也除了1000，我第一次操作没有意识到有这个问题，所以，做出来的数据又全部有问题。这个问题怎么解决呢？方法就是 <kbd>ALT</kbd>+<kbd>;</kbd>键。
+这个快捷键会让Excel只选中可视区域，筛选的区域或者隐藏的区域不会被选择，所以这样操作的时候不会有问题。</p>
+
 
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
@@ -442,41 +494,6 @@ End Function
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
 
-<article class="hentry">
-  <header>
-    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2014-03-30T00:00:00+08:00"><a href="http://miao.li/net/how-i-build-this-blog/">March 30, 2014</a></time></span><span class="author vcard"><span class="fn"><a href="http://miao.li/about/" title="About 李志渺">李志渺</a></span></span>&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="http://miao.li/net/how-i-build-this-blog/#disqus_thread">Comment</a></span></div><!-- /.entry-meta -->
-    
-      <h1 class="entry-title"><a href="http://miao.li/net/how-i-build-this-blog/" rel="bookmark" title="这个博客怎样建立的" itemprop="url">这个博客怎样建立的</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    <p>这个博客是使用的Jekyll建立的，放在Github上。因为对git命令不是很熟，所以还是用的SourceTree来提交更新。</p>
-
-<h2 id="jekyll">具体怎样安装jekyll</h2>
-<p>因为我是用的OS X，系统自带了Ruby，所以，使用</p>
-
-<pre><code>sudo gem install jekyll
-</code></pre>
-
-<p>就可以安装jekyll了</p>
-
-<pre><code>jekyll new blog
-</code></pre>
-
-<p>新建一个文件夹，在<code>blog</code>文件夹中放置你的博客。
-在网上下载主题。</p>
-
-<pre><code>jekyll serve
-</code></pre>
-
-<p>在本地创建和预览你的博客。满意后，将博客传到如github pages上。</p>
-
-<p>编辑博客的话，在Mac上使用的是Mou这个编辑器，在iPad上使用editorial这个编辑器，在手机上使用draft。使用Dropbox同步，在Mac上#使用<code>jekyll build</code>后用source tree更新到GitHub Page上。</p>
-
-
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
-
 
 <div class="pagination">
   
@@ -489,9 +506,15 @@ End Function
       
     </li>
     
+      <li>
+        
+          <a href="http://miao.li/page2">2</a>
+        
+      </li>
+    
   </ul>
   
-    Next
+    <a href="http://miao.li/page2" class="btn">Next</a>
   
 </div><!-- /.pagination -->
 </div><!-- /#main -->
