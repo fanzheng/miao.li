@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://miao.li/feed.xml" />
 <link rel="alternate" type="text/html" href="http://miao.li" />
-<updated>2014-04-26T01:09:23+08:00</updated>
+<updated>2014-04-27T12:00:45+08:00</updated>
 <id>http://miao.li/</id>
 <author>
   <name>李志渺</name>
@@ -14,28 +14,51 @@
 
 
 <entry>
-  <title type="html"><![CDATA[使用新主题]]></title>
- <link rel="alternate" type="text/html" href="http://miao.li/use-hpstr-theme/" />
-  <id>http://miao.li/use-hpstr-theme</id>
-  <updated>2014-04-26 00:57:35 +0800T00:00:00-00:00</updated>
-  <published>2014-04-26T00:00:00+08:00</published>
+  <title type="html"><![CDATA[Carousel - 你生命所有重要瞬间，在云端]]></title>
+ <link rel="alternate" type="text/html" href="http://miao.li/net/all-your-photos-on-cloud/" />
+  <id>http://miao.li/net/all-your-photos-on-cloud</id>
+  <updated>2014-04-27 11:03 +0800T00:00:00-00:00</updated>
+  <published>2014-04-27T00:00:00+08:00</published>
   
   <author>
     <name>李志渺</name>
     <uri>http://miao.li</uri>
     <email>zhi@miao.li</email>
   </author>
-  <content type="html">&lt;p&gt;折腾了一下，开始使用&lt;a href=&quot;http://mademistakes.com/hpstr/&quot;&gt;HTSTR&lt;/a&gt;这个Jekyll主题。&lt;/p&gt;
+  <content type="html">&lt;p&gt;前面也注册了&lt;a href=&quot;http://loom.com&quot;&gt;Loom&lt;/a&gt;，Loom是一个基于云的图片存储服务，然后早几天收到Loom的邮件，说Loom加入了&lt;a href=&quot;https://dropbox.com/&quot;&gt;Dropbox&lt;/a&gt;，而在前面Dropbox也发布了&lt;a href=&quot;https://carousel.com/&quot;&gt;Carousel&lt;/a&gt;，可以推测是Dropbox想做一个单独的相册工具，于是收购了Loom，在此之前Dropbox已经有Camera Upload功能。&lt;/p&gt;
 
+&lt;p&gt;现在Dropbox发布了一个单独的App，可以浏览你保存的所有图片。使用类似时间线的方式呈现，方便你看以前的重要照片。&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/use-hpstr-theme/&quot;&gt;使用新主题&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on April 26, 2014.&lt;/p&gt;</content>
+&lt;blockquote&gt;
+  &lt;p&gt;Carousel puts a lifetime of memories at your fingertips and keeps them safe forever in Dropbox.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Loom 会在5月16日彻底关闭，你可以选择从Loom导出到Carousel，Loom里面的免费空间也会加到的Dropbox空间，我的就加了5G空间。或者下载所有照片作为一个zip文件。&lt;/p&gt;
+
+&lt;p&gt;我觉得手机里面最重要的两个东西，一个是联系人，一个是手机拍的照片和视频，虽然我不是一个喜欢拍照片的人，如果手机丢了，但是还有这两个重要资料的话，也不会太伤心，联系人我是使用的Google的备份服务&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;，照片现在使用的Dropbox的Camera Upload，而如果你安装了Carousel的话，Dropbox会把照片上传工作交给Carousel。&lt;/p&gt;
+
+&lt;p&gt;Carousel目前有Android和iPhone版本，还不支持iPad啊。&lt;/p&gt;
+
+&lt;p&gt;Carousel也引入了社交属性，如果方便的共享和查看好友共享的图片，将好友共享的照片存入自己的Dropbox中。&lt;/p&gt;
+
+&lt;p&gt;注册一个Dropbox账号吧 &lt;a href=&quot;https://db.tt/DLjwIHX&quot;&gt;https://db.tt/DLjwIHX&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;有Google服务框架，系统自己带的，而且谷歌联系人和Gmail联系人同步，也可以找回删掉的联系人。 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/net/all-your-photos-on-cloud/&quot;&gt;Carousel - 你生命所有重要瞬间，在云端&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on April 27, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[ Notesuite 上手]]></title>
- <link rel="alternate" type="text/html" href="http://miao.li/notesuite-review/" />
-  <id>http://miao.li/notesuite-review</id>
+ <link rel="alternate" type="text/html" href="http://miao.li/ios/notesuite-review.md/" />
+  <id>http://miao.li/ios/notesuite-review.md</id>
   <published>2014-04-25T00:00:00+08:00</published>
   <updated>2014-04-25T00:00:00+08:00</updated>
   <author>
@@ -55,16 +78,17 @@
 
 &lt;p&gt;这个app现在是0.99美元促销，可能在Mac上购买了就可以入手了，其他的话，觉得这个比较糟糕，买Notability比较好。&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/notesuite-review/&quot;&gt; Notesuite 上手&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on April 25, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/ios/notesuite-review.md/&quot;&gt; Notesuite 上手&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on April 25, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[理解Excel]]></title>
- <link rel="alternate" type="text/html" href="http://miao.li/understanding_excel/" />
-  <id>http://miao.li/understanding_excel</id>
+ <link rel="alternate" type="text/html" href="http://miao.li/excel/understanding_excel/" />
+  <id>http://miao.li/excel/understanding_excel</id>
+  <updated>2014-04-26 22:35:5 +0800T00:00:00-00:00</updated>
   <published>2014-04-22T00:00:00+08:00</published>
-  <updated>2014-04-22T00:00:00+08:00</updated>
+  
   <author>
     <name>李志渺</name>
     <uri>http://miao.li</uri>
@@ -311,14 +335,14 @@ End Function
   &lt;/ol&gt;
 &lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/understanding_excel/&quot;&gt;理解Excel&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on April 22, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/excel/understanding_excel/&quot;&gt;理解Excel&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on April 22, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[这个博客怎样建立的]]></title>
- <link rel="alternate" type="text/html" href="http://miao.li/how-i-build-this-blog/" />
-  <id>http://miao.li/how-i-build-this-blog</id>
+ <link rel="alternate" type="text/html" href="http://miao.li/net/how-i-build-this-blog/" />
+  <id>http://miao.li/net/how-i-build-this-blog</id>
   <published>2014-03-30T00:00:00+08:00</published>
   <updated>2014-03-30T00:00:00+08:00</updated>
   <author>
@@ -350,184 +374,7 @@ End Function
 &lt;p&gt;编辑博客的话，在Mac上使用的是Mou这个编辑器，在iPad上使用editorial这个编辑器，在手机上使用draft。使用Dropbox同步，在Mac上#使用&lt;code&gt;jekyll build&lt;/code&gt;后用source tree更新到GitHub Page上。&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/how-i-build-this-blog/&quot;&gt;这个博客怎样建立的&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on March 30, 2014.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[ 锻炼的App - 安卓版]]></title>
- <link rel="alternate" type="text/html" href="http://miao.li/android-app-for-getting-fit/" />
-  <id>http://miao.li/android-app-for-getting-fit</id>
-  <published>2014-03-20T00:00:00+08:00</published>
-  <updated>2014-03-20T00:00:00+08:00</updated>
-  <author>
-    <name>李志渺</name>
-    <uri>http://miao.li</uri>
-    <email>zhi@miao.li</email>
-  </author>
-  <content type="html">&lt;h2 class=&quot;no_toc&quot; id=&quot;section&quot;&gt;目录&lt;/h2&gt;
-
-&lt;p&gt;为什么是安卓版，因为我只有安卓手机。下面有的是app，也有其他的资源。&lt;/p&gt;
-
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-1&quot;&gt;每日锻炼&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#runtastic-pro&quot;&gt;Runtastic Pro&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#runtastic-&quot;&gt;Runtastic 系列&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#a-hiit-timer&quot;&gt;a hiit timer&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-2&quot;&gt;知乎周刊  -  无基础健身&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-3&quot;&gt;微博账号&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#fitbit&quot;&gt;fitbit&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;每日锻炼&lt;/h2&gt;
-&lt;p&gt;首先就是每日锻炼，这个是教你怎么练的，一些小视频，教你怎么练各个部位，例如不要做仰卧起坐，练卷腹的效果更好，对各个部位进行练习效果更好。
-每日锻炼有大量的锻炼的方法，所以如果没有钱请教练，可以用它代替。&lt;/p&gt;
-
-&lt;h2 id=&quot;runtastic-pro&quot;&gt;Runtastic Pro&lt;/h2&gt;
-&lt;p&gt;Runtastic Pro是跑步的记录软件，注册一个账号， 输入身高体重， 使用GPS测算跑步的距离，算出消耗的卡路里，你可以在网站 runtastic.com上看到你以前的记录，可以添加好友，查看对方的记录。&lt;/p&gt;
-
-&lt;h2 id=&quot;runtastic-&quot;&gt;Runtastic 系列&lt;/h2&gt;
-&lt;p&gt;Runtastic的app都比较棒，用的跑步软件比较多。&lt;/p&gt;
-
-&lt;h2 id=&quot;a-hiit-timer&quot;&gt;a hiit timer&lt;/h2&gt;
-&lt;p&gt;HITT Timer手机app，帮你记录，提醒你什么时候休息，什么时候应该继续
-&amp;gt;High-intensity Interval Training (HIIT)高强度间歇训练法,简称HIIT,这种特殊的训练方法问世以来风靡欧美大陆,短时间高质量的脂肪和卡路里燃烧非常适合现代人的生活方式.&lt;/p&gt;
-
-&lt;h2 id=&quot;section-2&quot;&gt;知乎周刊  -  无基础健身&lt;/h2&gt;
-&lt;p&gt;这个是一本书，知乎收集的一些关于健身的问答，里面的回答都是非常的科学和正确，质量非常高，对于无基础的想要来了解一下的同学不错。当然，最重要的是，是免费的，也推荐知乎周刊其他的内容。&lt;/p&gt;
-
-&lt;h2 id=&quot;section-3&quot;&gt;微博账号&lt;/h2&gt;
-&lt;p&gt;我觉得健身最重要的是坚持，我说的微博账号不是去微博共享你每天跑了多少，而是有一些账号，会经常发一些跑步相关的东西，然后让你总是想去跑步。认为跑步多么多么健康和美好，然后你就会想去跑。每天在微博里面共享你跑了多少不会帮你跑多少。&lt;/p&gt;
-
-&lt;h2 id=&quot;fitbit&quot;&gt;fitbit&lt;/h2&gt;
-&lt;p&gt;这个不是一个软件，而是软件和硬件都有，就现在智能设备的发展速度看，过几年几乎所有公司都会有这样一个东西了。
-买一个硬件记录你每天走的步数，爬的楼梯，消耗的卡路里，也是一个监督自己进步的方法。&lt;/p&gt;
-
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/android-app-for-getting-fit/&quot;&gt; 锻炼的App - 安卓版&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on March 20, 2014.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[我怎样使用Evernote]]></title>
- <link rel="alternate" type="text/html" href="http://miao.li/how-i-use-evernote/" />
-  <id>http://miao.li/how-i-use-evernote</id>
-  <published>2012-11-03T00:00:00+08:00</published>
-  <updated>2012-11-03T00:00:00+08:00</updated>
-  <author>
-    <name>李志渺</name>
-    <uri>http://miao.li</uri>
-    <email>zhi@miao.li</email>
-  </author>
-  <content type="html">&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#section&quot;&gt;我怎样用&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-1&quot;&gt;为什么这样&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#vs&quot;&gt;离线vs在线&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-2&quot;&gt;具体使用&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;#section-3&quot;&gt;总结&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;section&quot;&gt;我怎样用&lt;/h2&gt;
-&lt;p&gt;evernote作为大家都非常推崇的软件[或者说服务]我也是很久之前就开始用，现在我有两个账户，一个主要账户，用的是evernote international&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;版本的账户。一个存档账户，用的是印象笔记账户。&lt;/p&gt;
-
-&lt;h2 id=&quot;section-1&quot;&gt;为什么这样&lt;/h2&gt;
-&lt;p&gt;我用Gmail的习惯就是把收件箱清空，每处理完一封邮件就把它存档，看到收件箱是空的的确让人有成就感。
-同样的，我不敢把太多的笔记堆积在我的evernote笔记中。&lt;/p&gt;
-
-&lt;p&gt;你为什么做笔记？因为我想等下回来再阅读复习背诵。有的东西或许只是收藏备查。把笔记积累的太多也会让我有压力。所以，每次处理完一个笔记，我把它发到印象笔记的电子邮箱里面。然后再把这条笔记删掉。当然，这条笔记在我的印象笔记账户中好友。&lt;/p&gt;
-
-&lt;h2 id=&quot;vs&quot;&gt;离线vs在线&lt;/h2&gt;
-&lt;p&gt;由于有两个账户，你可能会问，我怎么管理两个账户，我的建议是不管理。你只要维护一个账户就好了，evernote笔记有开放api，可以用ifttt等服务，所以这个用客户端管理，而印象笔记服务器在国内，作为存档账户，你只在需要的时候去访问web端就好，我也喜欢用文件夹用标签分类笔记，电子邮件也支持给笔记分配文件夹和标签。但是同时，你可以搜索，evernote的全文搜索功能可以用。&lt;/p&gt;
-
-&lt;h2 id=&quot;section-2&quot;&gt;具体使用&lt;/h2&gt;
-&lt;p&gt;新的笔记全部都放到常用的账户里面，新写的笔记，用Clear
-从常用的账户用分享功能使用邮件的方式发送到存档账户
-&lt;img src=&quot;http://ww4.sinaimg.cn/large/7316e2d8jw1dyi4420xg1j.jpg&quot; alt=&quot;分享&quot; /&gt;
-存档账户的邮件地址可以在设置或者账户信息里面看到。
-管理存档账户可以使用&lt;a href=&quot;https://app.yinxiang.com/Home.action&quot;&gt;web端&lt;/a&gt;
-而给笔记分类和添加标签也可以使用邮件功能实现&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;笔记本用 @ ：在@后，列出想发送到的那个笔记本的名称
-标签用＃： 在＃后， 列出一个或多个你希望给这个笔记加上的标签，你可以加多个标签，但请确保每一个标签以＃开始。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://blog.yinxiang.com/blog/2012/05/15/email-yinxiang/&quot;&gt;&lt;img src=&quot;http://blog.yinxiang.com/wp-content/uploads/2012/05/email.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;section-3&quot;&gt;总结&lt;/h2&gt;
-&lt;p&gt;我只把在做的事情放在桌面上，而处理完的内容放在书柜里，只有在需要的时候去寻找。&lt;/p&gt;
-
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;最近由于国际版真的是太慢了，已经换到印象笔记了。 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
-
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/how-i-use-evernote/&quot;&gt;我怎样使用Evernote&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on November 03, 2012.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Markdown to Clipboard - a simple Sublime Text plugin]]></title>
- <link rel="alternate" type="text/html" href="http://miao.li/markdown-to-clipboard/" />
-  <id>http://miao.li/markdown-to-clipboard</id>
-  <published>2012-08-03T00:00:00+08:00</published>
-  <updated>2012-08-03T00:00:00+08:00</updated>
-  <author>
-    <name>李志渺</name>
-    <uri>http://miao.li</uri>
-    <email>zhi@miao.li</email>
-  </author>
-  <content type="html">&lt;p&gt;Markdown is invented to write without a WYSIWYG editor,and Sublime Text 2 is really ‘the editor’ for us,it’s fast cross-platform,full-featured code editor. it is easy to write a plugin using the python api. I wrote this plugin so that I can write using markdown and copy it to my this blog. I use Markdown2 module to convert mardown to HTML. it support footnote and simple table. details are here: &lt;a href=&quot;http://timewilltell.me/node/14&quot;&gt;http://timewilltell.me/node/14&lt;/a&gt;   anyone think of a better name for this plugin?&lt;/p&gt;
-
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/markdown-to-clipboard/&quot;&gt;Markdown to Clipboard - a simple Sublime Text plugin&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on August 03, 2012.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[EasyBCD - 超强大的启动项管理工具]]></title>
- <link rel="alternate" type="text/html" href="http://miao.li/easybcd/" />
-  <id>http://miao.li/easybcd</id>
-  <published>2012-03-23T00:00:00+08:00</published>
-  <updated>2012-03-23T00:00:00+08:00</updated>
-  <author>
-    <name>李志渺</name>
-    <uri>http://miao.li</uri>
-    <email>zhi@miao.li</email>
-  </author>
-  <content type="html">&lt;p&gt;EasyBCD是个管理启动项的工具，有了它，你可以先装linux再装windows.先装win7再装xp，非常强大的一个工具，  &lt;/p&gt;
-
-&lt;p&gt;如果你同时安装了Windows和linux，某天，你的Windows越用越慢，终于要重装了，Windows也就把所有的启动项都覆盖了，然后你就只能启动Windows，安装EasyBCD可以让你恢复linux的启动。现在一般都选Grub２的。  &lt;/p&gt;
-
-&lt;p&gt;下载&lt;br /&gt;
- &lt;a href=&quot;http://neosmart.net/EasyBCD/&quot;&gt;neosmart.net/EasyBCD/&lt;/a&gt;&lt;/p&gt;
-
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/easybcd/&quot;&gt;EasyBCD - 超强大的启动项管理工具&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on March 23, 2012.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[使用7-zip来反编译CHM文件]]></title>
- <link rel="alternate" type="text/html" href="http://miao.li/use-7-zip-to-open-chm-file/" />
-  <id>http://miao.li/use-7-zip-to-open-chm-file</id>
-  <published>2011-08-08T00:00:00+08:00</published>
-  <updated>2011-08-08T00:00:00+08:00</updated>
-  <author>
-    <name>李志渺</name>
-    <uri>http://miao.li</uri>
-    <email>zhi@miao.li</email>
-  </author>
-  <content type="html">
-&lt;h2 id=&quot;zipchm&quot;&gt;使用7-zip来反编译CHM文件&lt;/h2&gt;
-
-&lt;p&gt;意外的发现，使用7-zip来反编译CHM文件，&lt;/p&gt;
-
-&lt;p&gt;以前没买电脑，在手机上边看chm文件非常不爽，用熊猫看书，找到它的缓存html的文件，然后用Opera Mobile 阅读，非常的不爽，以前还有专门的 CHM文件反编译软件，但是是收费的。有了7-zip就不需要了。&lt;/p&gt;
-
-&lt;p&gt;只要在CHM上右击，选择使用7-zip打开，然后就可以看到里面的内容，解压出来看就好了。&lt;/p&gt;
-
-  &lt;p&gt;&lt;a href=&quot;http://miao.li/use-7-zip-to-open-chm-file/&quot;&gt;使用7-zip来反编译CHM文件&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on August 08, 2011.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/net/how-i-build-this-blog/&quot;&gt;这个博客怎样建立的&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel&lt;/a&gt; on March 30, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>
