@@ -2,27 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Excel，数据分析，互联网和其他所有</title>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="/feed.xml" />
-<link rel="alternate" type="text/html" href="" />
-<updated>2014-04-29T01:30:02+08:00</updated>
-<id>/</id>
+<link rel="self" type="application/atom+xml" href="http://miao.li/feed.xml" />
+<link rel="alternate" type="text/html" href="http://miao.li" />
+<updated>2014-04-29T01:33:37+08:00</updated>
+<id>http://miao.li/</id>
 <author>
   <name>李志渺</name>
-  <uri>/</uri>
+  <uri>http://miao.li/</uri>
   <email>zhi@miao.li</email>
 </author>
 
 
 <entry>
   <title type="html"><![CDATA[Excel VBA关闭文件遇到错误的解决方法]]></title>
- <link rel="alternate" type="text/html" href="/excel/vba-close-workbook-error/" />
-  <id>/excel/vba-close-workbook-error</id>
+ <link rel="alternate" type="text/html" href="http://miao.li/excel/vba-close-workbook-error/" />
+  <id>http://miao.li/excel/vba-close-workbook-error</id>
   <updated>2014-04-27 02:03 +0800T00:00:00-00:00</updated>
   <published>2014-04-27T00:00:00+08:00</published>
   
   <author>
     <name>李志渺</name>
-    <uri></uri>
+    <uri>http://miao.li</uri>
     <email>zhi@miao.li</email>
   </author>
   <content type="html">&lt;p&gt;使用VBA关闭打开的工作簿时候遇到问题。不能关闭工作簿。遇到这个错误的时候，可能需要有这几个方向想。&lt;/p&gt;
@@ -38,20 +38,20 @@
 
 &lt;p&gt;一般来说，第四种方法是最直接有用的，但是，有的时候，却还是关不了，试验了很多次后，发现使用配合使用第3个方法非常有效的。&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/excel/vba-close-workbook-error/&quot;&gt;Excel VBA关闭文件遇到错误的解决方法&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;&quot;&gt;Excel，数据分析，互联网和其他所有&lt;/a&gt; on April 27, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/excel/vba-close-workbook-error/&quot;&gt;Excel VBA关闭文件遇到错误的解决方法&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel，数据分析，互联网和其他所有&lt;/a&gt; on April 27, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Carousel - 你生命所有重要瞬间，在云端]]></title>
- <link rel="alternate" type="text/html" href="/net/all-your-photos-on-cloud/" />
-  <id>/net/all-your-photos-on-cloud</id>
+ <link rel="alternate" type="text/html" href="http://miao.li/net/all-your-photos-on-cloud/" />
+  <id>http://miao.li/net/all-your-photos-on-cloud</id>
   <updated>2014-04-27 11:03 +0800T00:00:00-00:00</updated>
   <published>2014-04-27T00:00:00+08:00</published>
   
   <author>
     <name>李志渺</name>
-    <uri></uri>
+    <uri>http://miao.li</uri>
     <email>zhi@miao.li</email>
   </author>
   <content type="html">&lt;p&gt;前面也注册了&lt;a href=&quot;http://loom.com&quot;&gt;Loom&lt;/a&gt;，Loom是一个基于云的图片存储服务，然后早几天收到Loom的邮件，说Loom加入了&lt;a href=&quot;https://dropbox.com/&quot;&gt;Dropbox&lt;/a&gt;，而在前面Dropbox也发布了&lt;a href=&quot;https://carousel.com/&quot;&gt;Carousel&lt;/a&gt;，可以推测是Dropbox想做一个单独的相册工具，于是收购了Loom，在此之前Dropbox已经有Camera Upload功能。&lt;/p&gt;
@@ -82,20 +82,20 @@
   &lt;/ol&gt;
 &lt;/div&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/net/all-your-photos-on-cloud/&quot;&gt;Carousel - 你生命所有重要瞬间，在云端&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;&quot;&gt;Excel，数据分析，互联网和其他所有&lt;/a&gt; on April 27, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/net/all-your-photos-on-cloud/&quot;&gt;Carousel - 你生命所有重要瞬间，在云端&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel，数据分析，互联网和其他所有&lt;/a&gt; on April 27, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[Excel只选择可视区域]]></title>
- <link rel="alternate" type="text/html" href="/excel/how-to-select-visible-area-only/" />
-  <id>/excel/how-to-select-visible-area-only</id>
+ <link rel="alternate" type="text/html" href="http://miao.li/excel/how-to-select-visible-area-only/" />
+  <id>http://miao.li/excel/how-to-select-visible-area-only</id>
   <updated>2014-04-27 02:03 +0800T00:00:00-00:00</updated>
   <published>2014-04-26T00:00:00+08:00</published>
   
   <author>
     <name>李志渺</name>
-    <uri></uri>
+    <uri>http://miao.li</uri>
     <email>zhi@miao.li</email>
   </author>
   <content type="html">&lt;p&gt;昨天需要加工一个数据，是一些数据的单位有问题，大部分的数据是用的单位吨，而一部分数据使用的是单位吨，所以有1000倍的差距，需要手工修改，是的，使用Excel的&lt;code&gt;选择性粘贴&lt;/code&gt;实现，方法是&lt;/p&gt;
@@ -113,19 +113,19 @@
 这个快捷键会让Excel只选中可视区域，筛选的区域或者隐藏的区域不会被选择，所以这样操作的时候不会有问题。&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;/excel/how-to-select-visible-area-only/&quot;&gt;Excel只选择可视区域&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;&quot;&gt;Excel，数据分析，互联网和其他所有&lt;/a&gt; on April 26, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/excel/how-to-select-visible-area-only/&quot;&gt;Excel只选择可视区域&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel，数据分析，互联网和其他所有&lt;/a&gt; on April 26, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[ Notesuite 上手]]></title>
- <link rel="alternate" type="text/html" href="/ios/notesuite-review.md/" />
-  <id>/ios/notesuite-review.md</id>
+ <link rel="alternate" type="text/html" href="http://miao.li/ios/notesuite-review.md/" />
+  <id>http://miao.li/ios/notesuite-review.md</id>
   <published>2014-04-25T00:00:00+08:00</published>
   <updated>2014-04-25T00:00:00+08:00</updated>
   <author>
     <name>李志渺</name>
-    <uri></uri>
+    <uri>http://miao.li</uri>
     <email>zhi@miao.li</email>
   </author>
   <content type="html">&lt;p&gt;昨天晚上买了notesuite，0.99美元，用了之后感觉太糟糕，对中文支持不好，输入的时候不会直接显示文字，所以几乎不能使用中文。&lt;/p&gt;
@@ -140,19 +140,19 @@
 
 &lt;p&gt;这个app现在是0.99美元促销，可能在Mac上购买了就可以入手了，其他的话，觉得这个比较糟糕，买Notability比较好。&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;/ios/notesuite-review.md/&quot;&gt; Notesuite 上手&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;&quot;&gt;Excel，数据分析，互联网和其他所有&lt;/a&gt; on April 25, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/ios/notesuite-review.md/&quot;&gt; Notesuite 上手&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel，数据分析，互联网和其他所有&lt;/a&gt; on April 25, 2014.&lt;/p&gt;</content>
 </entry>
 
 
 <entry>
   <title type="html"><![CDATA[这个博客怎样建立的]]></title>
- <link rel="alternate" type="text/html" href="/net/how-i-build-this-blog/" />
-  <id>/net/how-i-build-this-blog</id>
+ <link rel="alternate" type="text/html" href="http://miao.li/net/how-i-build-this-blog/" />
+  <id>http://miao.li/net/how-i-build-this-blog</id>
   <published>2014-03-30T00:00:00+08:00</published>
   <updated>2014-03-30T00:00:00+08:00</updated>
   <author>
     <name>李志渺</name>
-    <uri></uri>
+    <uri>http://miao.li</uri>
     <email>zhi@miao.li</email>
   </author>
   <content type="html">&lt;p&gt;这个博客是使用的Jekyll建立的，放在Github上。因为对git命令不是很熟，所以还是用的SourceTree来提交更新。&lt;/p&gt;
@@ -179,7 +179,7 @@
 &lt;p&gt;编辑博客的话，在Mac上使用的是Mou这个编辑器，在iPad上使用editorial这个编辑器，在手机上使用draft。使用Dropbox同步，在Mac上#使用&lt;code&gt;jekyll build&lt;/code&gt;后用source tree更新到GitHub Page上。&lt;/p&gt;
 
 
-  &lt;p&gt;&lt;a href=&quot;/net/how-i-build-this-blog/&quot;&gt;这个博客怎样建立的&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;&quot;&gt;Excel，数据分析，互联网和其他所有&lt;/a&gt; on March 30, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/net/how-i-build-this-blog/&quot;&gt;这个博客怎样建立的&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel，数据分析，互联网和其他所有&lt;/a&gt; on March 30, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>

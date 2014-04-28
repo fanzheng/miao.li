@@ -1,58 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc></loc>
+        <loc>http://miao.li</loc>
     </url>
     
     
     <url>
-        <loc>/404.html</loc>
+        <loc>http://miao.li/404.html</loc>
     </url>
     
     <url>
-        <loc>/about/</loc>
+        <loc>http://miao.li/about/</loc>
     </url>
     
     <url>
-        <loc>/feed.xml</loc>
+        <loc>http://miao.li/feed.xml</loc>
     </url>
     
     <url>
-        <loc>/index.html</loc>
+        <loc>http://miao.li/index.html</loc>
     </url>
     
     <url>
-        <loc>/posts/</loc>
+        <loc>http://miao.li/posts/</loc>
     </url>
     
     <url>
-        <loc>/sitemap.xml</loc>
+        <loc>http://miao.li/sitemap.xml</loc>
     </url>
     
     <url>
-        <loc>/tags/</loc>
+        <loc>http://miao.li/tags/</loc>
     </url>
     
 
     
     <url>
-        <loc>/excel/vba-close-workbook-error/</loc>
+        <loc>http://miao.li/excel/vba-close-workbook-error/</loc>
     </url>
     
     <url>
-        <loc>/net/all-your-photos-on-cloud/</loc>
+        <loc>http://miao.li/net/all-your-photos-on-cloud/</loc>
     </url>
     
     <url>
-        <loc>/excel/how-to-select-visible-area-only/</loc>
+        <loc>http://miao.li/excel/how-to-select-visible-area-only/</loc>
     </url>
     
     <url>
-        <loc>/ios/notesuite-review.md/</loc>
+        <loc>http://miao.li/ios/notesuite-review.md/</loc>
     </url>
     
     <url>
-        <loc>/net/how-i-build-this-blog/</loc>
+        <loc>http://miao.li/net/how-i-build-this-blog/</loc>
     </url>
     
 </urlset>
