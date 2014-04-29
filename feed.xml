@@ -4,13 +4,84 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://miao.li/feed.xml" />
 <link rel="alternate" type="text/html" href="http://miao.li" />
-<updated>2014-04-29T01:33:37+08:00</updated>
+<updated>2014-04-29T23:12:43+08:00</updated>
 <id>http://miao.li/</id>
 <author>
   <name>李志渺</name>
   <uri>http://miao.li/</uri>
   <email>zhi@miao.li</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Jekyll主题推荐]]></title>
+ <link rel="alternate" type="text/html" href="http://miao.li/blog/some-jekyll-themes/" />
+  <id>http://miao.li/blog/some-jekyll-themes</id>
+  <updated>2014-04-29 22:12:05 +0800T00:00:00-00:00</updated>
+  <published>2014-04-29T00:00:00+08:00</published>
+  
+  <author>
+    <name>李志渺</name>
+    <uri>http://miao.li</uri>
+    <email>zhi@miao.li</email>
+  </author>
+  <content type="html">&lt;p&gt;在建博客的过程中，试用了一些Jekyll主题，感觉有蛮多都非常非常出色。在这里推荐几个我非常喜欢的。&lt;/p&gt;
+
+&lt;h2 id=&quot;hpstr&quot;&gt;HPSTR&lt;/h2&gt;
+&lt;p&gt;也就是我现在在使用的主题。这个主题是因为它支持IE8,虽然支持不是很好，但相对于其他的主题，这个主题在IE8下还是可以看的。&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/mmistakes/hpstr-jekyll-theme&quot;&gt;Github&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://mmistakes.github.io/hpstr-jekyll-theme/&quot;&gt;Demo&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;kasper&quot;&gt;Kasper&lt;/h2&gt;
+&lt;p&gt;这个是&lt;a href=&quot;https://ghost.org/&quot;&gt;Ghost&lt;/a&gt;的默认主题，设计的非常简约漂亮，由&lt;a href=&quot;https://github.com/rosario&quot;&gt;rosario&lt;/a&gt;移植到了Jekyll版本。&lt;/p&gt;
+
+&lt;p&gt;页面截图&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://miaoblog.qiniudn.com/kasper-theme-post.png&quot; alt=&quot;Kasper主题文章截图&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/rosario/kasper&quot;&gt;Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;poole--hyde--lanyon&quot;&gt;Poole &amp;amp; Hyde &amp;amp; Lanyon&lt;/h2&gt;
+&lt;p&gt;Poole、Hyde 和 Lanyon是三个不同的主题，其实Hyde和Lanyon差不多是基于Poole创建的，主题作者是大名鼎鼎的&lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt;，&lt;a href=&quot;http://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;的作者之一。&lt;/p&gt;
+
+&lt;p&gt;这几个主题都是极简的主题。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://miaoblog.qiniudn.com/201404-poole-theme.png&quot; alt=&quot;Poole主题&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://markdotto.com/2014/01/02/introducing-poole/&quot;&gt;作者的主题介绍&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Github页面&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/poole/poole/&quot;&gt;Poole&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/poole/hyde/&quot;&gt;Hyde&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/poole/lanyon/&quot;&gt;Lanyon&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Demo&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://andhyde.com&quot;&gt;Hyde&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://lanyon.getpoole.com/&quot;&gt;Lanyon&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/blog/some-jekyll-themes/&quot;&gt;Jekyll主题推荐&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel，数据分析，互联网和其他所有&lt;/a&gt; on April 29, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -62,9 +133,9 @@
   &lt;p&gt;Carousel puts a lifetime of memories at your fingertips and keeps them safe forever in Dropbox.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Loom 会在5月16日彻底关闭，你可以选择从Loom导出到Carousel，Loom里面的免费空间也会加到的Dropbox空间，我的就加了5G空间。或者下载所有照片作为一个zip文件。&lt;/p&gt;
+&lt;p&gt;Loom 会在5月16日彻底关闭，你可以选择从Loom导出到Carousel，或者下载所有照片作为一个zip文件。如果你选择导出到Dropbox，那么Loom的空间也会加到的Dropbox空间，我的就加了5G空间。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://ww3.sinaimg.cn/large/7316e2d8gw1efuaicv6j6j20ro07fmxu.jpg&quot; alt=&quot;&amp;quot;增加5G空间&amp;quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://miaoblog.qiniudn.com/201404dropbox5gspace.png&quot; alt=&quot;&amp;quot;增加5G空间&amp;quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;我觉得手机里面最重要的两个东西，一个是联系人，一个是手机拍的照片和视频，虽然我不是一个喜欢拍照片的人，如果手机丢了，但是还有这两个重要资料的话，也不会太伤心，联系人我是使用的Google的备份服务&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;，照片现在使用的Dropbox的Camera Upload，而如果你安装了Carousel的话，Dropbox会把照片上传工作交给Carousel。&lt;/p&gt;
 
@@ -160,12 +231,9 @@
 &lt;h2 id=&quot;jekyll&quot;&gt;具体怎样安装jekyll&lt;/h2&gt;
 &lt;p&gt;因为我是用的OS X，系统自带了Ruby，所以，使用&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;sudo gem install jekyll
-&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;sudo gem install jekyll jekyll就安装好了，如果你是使用Windows，可以搜索`ruby installer`。它是windows下的ruby安装包。
 
-&lt;p&gt;就可以安装jekyll了&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;jekyll new blog
+jekyll new blog
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;新建一个文件夹，在&lt;code&gt;blog&lt;/code&gt;文件夹中放置你的博客。

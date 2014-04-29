@@ -33,7 +33,15 @@
         <loc>http://miao.li/tags/</loc>
     </url>
     
+    <url>
+        <loc>http://miao.li/page2/index.html</loc>
+    </url>
+    
 
+    
+    <url>
+        <loc>http://miao.li/blog/some-jekyll-themes/</loc>
+    </url>
     
     <url>
         <loc>http://miao.li/excel/vba-close-workbook-error/</loc>
