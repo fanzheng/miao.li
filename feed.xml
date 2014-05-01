@@ -4,7 +4,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://miao.li/feed.xml" />
 <link rel="alternate" type="text/html" href="http://miao.li" />
-<updated>2014-04-29T23:12:43+08:00</updated>
+<updated>2014-05-01T23:40:09+08:00</updated>
 <id>http://miao.li/</id>
 <author>
   <name>李志渺</name>
@@ -81,6 +81,66 @@
 &lt;/table&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://miao.li/blog/some-jekyll-themes/&quot;&gt;Jekyll主题推荐&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel，数据分析，互联网和其他所有&lt;/a&gt; on April 29, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Excel文件过大的问题]]></title>
+ <link rel="alternate" type="text/html" href="http://miao.li/excel-file-size-issue/" />
+  <id>http://miao.li/excel-file-size-issue</id>
+  <updated>2014-04-29 23:16:03 +0800T00:00:00-00:00</updated>
+  <published>2014-04-29T00:00:00+08:00</published>
+  
+  <author>
+    <name>李志渺</name>
+    <uri>http://miao.li</uri>
+    <email>zhi@miao.li</email>
+  </author>
+  <content type="html">&lt;p&gt;工作需要处理大量Excel表格，然后有的时候会遇到以下的情况。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;打开一个工作簿，发现没有什么内容，文件体积缺非常大，或者新增一张没有什么很多内容的工作表，体积却一下暴增&lt;/li&gt;
+  &lt;li&gt;窗口右边的滑动按钮变得很小，稍微拖动但是Excel会移动很多。&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;上面这两种情况都是因为Excel工作表中，那些你没有数据的区域也启用了，这些区域虽然没有数据，可能只是有设置格式，或者原本有数据，你用&lt;kbd&gt;Delete&lt;/kbd&gt;键删除了，但是Excel并没有真正取消这些单元格，还是占用了空间的。
+那么怎么解决这个问题呢？有两个方法。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;找到问题的工作表，然后将那些你看到的没有数据的区域的行或者（和）列删除掉。&lt;/li&gt;
+  &lt;li&gt;使用插件。插件名字叫做&lt;code&gt;XSFormatCleaner.xla&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;section&quot;&gt;手动删除方法&lt;/h2&gt;
+&lt;p&gt;手动删除的话有个问题就是很难找到对应的工作表，因为就是有很多工作表的情况容易出现这样的问题，一个个去看的话，滑动鼠标滚轮，那些页面不流畅的工作表一般就是问题工作表。
+或者使用一个小代码。&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;aspx-vb&quot;&gt;Sub getlastcell()
+     For Each ws In ActiveWorkbook.Worksheets
+        output = output &lt;span class=&quot;err&quot;&gt;&amp;amp;&lt;/span&gt; ws.Name &lt;span class=&quot;err&quot;&gt;&amp;amp;&lt;/span&gt; vbTab &lt;span class=&quot;err&quot;&gt;&amp;amp;&lt;/span&gt; ws.UsedRange.Rows.Count &lt;span class=&quot;err&quot;&gt;&amp;amp;&lt;/span&gt; vbNewLine
+    next ws
+    debug.print output
+end sub
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;运行这段代码，会在即时窗口看到每个工作表的行，那些特别多行数&lt;sup id=&quot;fnref:51&quot;&gt;&lt;a href=&quot;#fn:51&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;的工作表就是问题工作表了。具体删除操作是&lt;/p&gt;
+
+&lt;p&gt;选择这些问题工作表中的多余的行或者列，右击，选择删除，或者使用菜单中的&lt;code&gt;清除&lt;/code&gt;&amp;gt;&lt;code&gt;清除所有&lt;/code&gt;，将所有工作表中的多余空白单元格删除后，重新打开工作簿就行了。&lt;/p&gt;
+
+&lt;h2 id=&quot;section-1&quot;&gt;使用插件删除&lt;/h2&gt;
+&lt;p&gt;这个插件叫做&lt;a href=&quot;http://xsformatcleaner.codeplex.com/&quot;&gt;XSFormatCleaner.xla&lt;/a&gt;，下载启用这个插件，然后在新出现的&lt;code&gt;加载项&lt;/code&gt;标签中点击新出现的那个按钮。等待它完成，根据表的大小，可能需要的时间不一样。完成后重新打开工作簿。&lt;/p&gt;
+
+&lt;p&gt;参考: &lt;a href=&quot;http://support.microsoft.com/kb/244435&quot;&gt;http://support.microsoft.com/kb/244435&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:51&quot;&gt;
+      &lt;p&gt;上面的代码是针对行的，如果需要查看列的数据，将上面代码的rows改成columns。 &lt;a href=&quot;#fnref:51&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://miao.li/excel-file-size-issue/&quot;&gt;Excel文件过大的问题&lt;/a&gt; was originally published by 李志渺 at &lt;a href=&quot;http://miao.li&quot;&gt;Excel，数据分析，互联网和其他所有&lt;/a&gt; on April 29, 2014.&lt;/p&gt;</content>
 </entry>
 
 

@@ -5,30 +5,31 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>这个博客怎样建立的 &#8211; Excel，数据分析，互联网和其他所有</title>
-<meta name="description" content="">
+<title>Excel文件过大的问题 &#8211; Excel，数据分析，互联网和其他所有</title>
+<meta name="description" content="Excel，数据分析，互联网和其他所有。">
 <meta name="keywords" content="">
 
 <!-- Twitter Cards -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://miao.li/images/">
-<meta name="twitter:title" content="这个博客怎样建立的">
-<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://miaoblog.qiniudn.com/feature_excel-filesize-issue.jpg">
+
+<meta name="twitter:title" content="Excel文件过大的问题">
+<meta name="twitter:description" content="Excel，数据分析，互联网和其他所有。">
 <meta name="twitter:creator" content="@_3ry">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="这个博客怎样建立的">
-<meta property="og:description" content="">
-<meta property="og:url" content="http://miao.li/net/how-i-build-this-blog/">
+<meta property="og:title" content="Excel文件过大的问题">
+<meta property="og:description" content="Excel，数据分析，互联网和其他所有。">
+<meta property="og:url" content="http://miao.li/excel-file-size-issue/">
 <meta property="og:site_name" content="Excel，数据分析，互联网和其他所有">
 
 
 
 
 
-<link rel="canonical" href="http://miao.li/net/how-i-build-this-blog/">
+<link rel="canonical" href="http://miao.li/excel-file-size-issue/">
 <link href="http://miao.li/feed.xml" type="application/atom+xml" rel="alternate" title="Excel，数据分析，互联网和其他所有 Feed">
 <link rel="author" href="https://plus.google.com/104973030351788858578?rel=author">
 
@@ -69,7 +70,7 @@
 
 </head>
 
-<body id="post" >
+<body id="post" class="feature">
 
 <!--[if lt IE 9]><div class="upgrade"><strong><a href="http://whatbrowser.org/">Your browser is quite old!</strong> Why not upgrade to a different browser to better enjoy this site?</a></div><![endif]-->
 <nav id="dl-menu" class="dl-menuwrapper" role="navigation">
@@ -122,49 +123,79 @@
 
 
 
+<div class="entry-header">
+  <div class="image-credit">Image source: <a href="http://www.unmorceau.com/">Sonja Langford</a></div><!-- /.image-credit -->
+  <div class="entry-image">
+    <img src="http://miaoblog.qiniudn.com/feature_excel-filesize-issue.jpg" alt="Excel文件过大的问题">
+  </div><!-- /.entry-image -->
+</div><!-- /.entry-header -->
+
 
 <div id="main" role="main">
   <article class="hentry">
     <header class="header-title">
       <div class="header-title-wrap">
         
-          <h1 class="entry-title"><a href="http://miao.li/net/how-i-build-this-blog/" rel="bookmark" title="这个博客怎样建立的">这个博客怎样建立的</a></h1>
+          <h1 class="entry-title"><a href="http://miao.li/excel-file-size-issue/" rel="bookmark" title="Excel文件过大的问题">Excel文件过大的问题</a></h1>
         
-        <h2>March 30, 2014</h2>
+        <h2>April 29, 2014</h2>
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content">
-      <p>这个博客是使用的Jekyll建立的，放在Github上。因为对git命令不是很熟，所以还是用的SourceTree来提交更新。</p>
+      <p>工作需要处理大量Excel表格，然后有的时候会遇到以下的情况。</p>
 
-<h2 id="jekyll">具体怎样安装jekyll</h2>
-<p>因为我是用的OS X，系统自带了Ruby，所以，使用</p>
+<ol>
+  <li>打开一个工作簿，发现没有什么内容，文件体积缺非常大，或者新增一张没有什么很多内容的工作表，体积却一下暴增</li>
+  <li>窗口右边的滑动按钮变得很小，稍微拖动但是Excel会移动很多。</li>
+</ol>
 
-<pre><code>sudo gem install jekyll jekyll就安装好了，如果你是使用Windows，可以搜索`ruby installer`。它是windows下的ruby安装包。
+<p>上面这两种情况都是因为Excel工作表中，那些你没有数据的区域也启用了，这些区域虽然没有数据，可能只是有设置格式，或者原本有数据，你用<kbd>Delete</kbd>键删除了，但是Excel并没有真正取消这些单元格，还是占用了空间的。
+那么怎么解决这个问题呢？有两个方法。</p>
 
-jekyll new blog
-</code></pre>
+<ol>
+  <li>找到问题的工作表，然后将那些你看到的没有数据的区域的行或者（和）列删除掉。</li>
+  <li>使用插件。插件名字叫做<code>XSFormatCleaner.xla</code></li>
+</ol>
 
-<p>新建一个文件夹，在<code>blog</code>文件夹中放置你的博客。
-在网上下载主题。</p>
+<h2 id="section">手动删除方法</h2>
+<p>手动删除的话有个问题就是很难找到对应的工作表，因为就是有很多工作表的情况容易出现这样的问题，一个个去看的话，滑动鼠标滚轮，那些页面不流畅的工作表一般就是问题工作表。
+或者使用一个小代码。</p>
 
-<pre><code>jekyll serve
-</code></pre>
+<div class="highlight"><pre><code class="aspx-vb">Sub getlastcell()
+     For Each ws In ActiveWorkbook.Worksheets
+        output = output <span class="err">&amp;</span> ws.Name <span class="err">&amp;</span> vbTab <span class="err">&amp;</span> ws.UsedRange.Rows.Count <span class="err">&amp;</span> vbNewLine
+    next ws
+    debug.print output
+end sub
+</code></pre></div>
 
-<p>在本地创建和预览你的博客。满意后，将博客传到如github pages上。</p>
+<p>运行这段代码，会在即时窗口看到每个工作表的行，那些特别多行数<sup id="fnref:51"><a href="#fn:51" class="footnote">1</a></sup>的工作表就是问题工作表了。具体删除操作是</p>
 
-<p>编辑博客的话，在Mac上使用的是Mou这个编辑器，在iPad上使用editorial这个编辑器，在手机上使用draft。使用Dropbox同步，在Mac上#使用<code>jekyll build</code>后用source tree更新到GitHub Page上。</p>
+<p>选择这些问题工作表中的多余的行或者列，右击，选择删除，或者使用菜单中的<code>清除</code>&gt;<code>清除所有</code>，将所有工作表中的多余空白单元格删除后，重新打开工作簿就行了。</p>
 
+<h2 id="section-1">使用插件删除</h2>
+<p>这个插件叫做<a href="http://xsformatcleaner.codeplex.com/">XSFormatCleaner.xla</a>，下载启用这个插件，然后在新出现的<code>加载项</code>标签中点击新出现的那个按钮。等待它完成，根据表的大小，可能需要的时间不一样。完成后重新打开工作簿。</p>
+
+<p>参考: <a href="http://support.microsoft.com/kb/244435">http://support.microsoft.com/kb/244435</a></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:51">
+      <p>上面的代码是针对行的，如果需要查看列的数据，将上面代码的rows改成columns。 <a href="#fnref:51" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
       <footer class="entry-meta">
         <span class="entry-tags"></span>
-        <span><a href="http://miao.li/net/how-i-build-this-blog/" rel="bookmark" title="这个博客怎样建立的">这个博客怎样建立的</a> was published on <span class="entry-date date published updated"><time datetime="2014-03-30T00:00:00+08:00">March 30, 2014</time></span></span>
-        
+        <span><a href="http://miao.li/excel-file-size-issue/" rel="bookmark" title="Excel文件过大的问题">Excel文件过大的问题</a> was published on <span class="entry-date date published updated"><time datetime="2014-04-29T00:00:00+08:00">April 29, 2014</time></span></span>
+        (revised: <span class="entry-date date modified"><time datetime="2014-04-29 23:16:03 +0800">04/29/2014</time></span>)
         <span class="author vcard"><span class="fn"><a href="http://miao.li/about/" title="About 李志渺">李志渺</a></span></span>
         <div class="social-share">
           <ul class="socialcount socialcount-small inline-list">
-            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://miao.li/net/how-i-build-this-blog/" title="Share on Facebook"><span class="count"><i class="icon-facebook-sign"></i> Like</span></a></li>
-            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://miao.li/net/how-i-build-this-blog/" title="Share on Twitter"><span class="count"><i class="icon-twitter-sign"></i> Tweet</span></a></li>
-            <li class="googleplus"><a href="https://plus.google.com/share?url=http://miao.li/net/how-i-build-this-blog/" title="Share on Google Plus"><span class="count"><i class="icon-google-plus-sign"></i> +1</span></a></li>
+            <li class="facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://miao.li/excel-file-size-issue/" title="Share on Facebook"><span class="count"><i class="icon-facebook-sign"></i> Like</span></a></li>
+            <li class="twitter"><a href="https://twitter.com/intent/tweet?text=http://miao.li/excel-file-size-issue/" title="Share on Twitter"><span class="count"><i class="icon-twitter-sign"></i> Tweet</span></a></li>
+            <li class="googleplus"><a href="https://plus.google.com/share?url=http://miao.li/excel-file-size-issue/" title="Share on Google Plus"><span class="count"><i class="icon-google-plus-sign"></i> +1</span></a></li>
           </ul>
         </div><!-- /.social-share -->
       </footer>
@@ -174,7 +205,7 @@ jekyll new blog
     <div class="read-more">
       
         <div class="read-more-header">
-          <a href="http://miao.li" class="read-more-btn">Read More</a>
+          <a href="http://miao.li/excel/vba-close-workbook-error/" class="read-more-btn">Read More</a>
         </div><!-- /.read-more-header -->
         <div class="read-more-content">
           <h3><a href="http://miao.li/blog/some-jekyll-themes/" title="Jekyll主题推荐">Jekyll主题推荐</a></h3>
@@ -184,12 +215,12 @@ jekyll new blog
       <div class="read-more-list">
         
           <div class="list-item">
-            <h4><a href="http://miao.li/excel-file-size-issue/" title="Excel文件过大的问题">Excel文件过大的问题</a></h4>
-            <span>Published on April 29, 2014</span>
+            <h4><a href="http://miao.li/excel/vba-close-workbook-error/" title="Excel VBA关闭文件遇到错误的解决方法">Excel VBA关闭文件遇到错误的解决方法</a></h4>
+            <span>Published on April 27, 2014</span>
           </div><!-- /.list-item -->
         
           <div class="list-item">
-            <h4><a href="http://miao.li/excel/vba-close-workbook-error/" title="Excel VBA关闭文件遇到错误的解决方法">Excel VBA关闭文件遇到错误的解决方法</a></h4>
+            <h4><a href="http://miao.li/net/all-your-photos-on-cloud/" title="Carousel - 你生命所有重要瞬间，在云端">Carousel - 你生命所有重要瞬间，在云端</a></h4>
             <span>Published on April 27, 2014</span>
           </div><!-- /.list-item -->
         

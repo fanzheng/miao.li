@@ -11,7 +11,7 @@
 
 <!-- Twitter Cards -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://37.media.tumblr.com/ae324e7244c389e47e1095065d6969db/tumblr_n1iq25Wq701st5lhmo1_1280.jpg">
+<meta name="twitter:image" content="http://miaoblog.qiniudn.com/home_feature_0501.jpg">
 
 <meta name="twitter:title" content="最新文章">
 <meta name="twitter:description" content="关注Excel，VBA和其他Office应用">
@@ -81,7 +81,7 @@
 			<a href="#">About</a>
 			<ul class="dl-submenu">
 				<li>
-					<img src="http://miao.li/images/" alt="李志渺 photo" class="author-photo">
+					<img src="http://miao.li/images/avatar.jpg" alt="李志渺 photo" class="author-photo">
 					<h4>李志渺</h4>
 					<p>Try not to Excel in Everything, and find the one and stick to it. do have faith.</p>
 				</li>
@@ -126,7 +126,7 @@
   
   
     <div class="entry-image">
-      <img src="http://37.media.tumblr.com/ae324e7244c389e47e1095065d6969db/tumblr_n1iq25Wq701st5lhmo1_1280.jpg" alt="最新文章">
+      <img src="http://miaoblog.qiniudn.com/home_feature_0501.jpg" alt="最新文章">
     </div><!-- /.entry-image -->
   
   <div class="header-title">
@@ -201,6 +201,61 @@
     </tr>
   </tbody>
 </table>
+
+  </div><!-- /.entry-content -->
+</article><!-- /.hentry -->
+
+<article class="hentry">
+  <header>
+    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2014-04-29T00:00:00+08:00"><a href="http://miao.li/excel-file-size-issue/">April 29, 2014</a></time></span><span class="author vcard"><span class="fn"><a href="http://miao.li/about/" title="About 李志渺">李志渺</a></span></span>&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="http://miao.li/excel-file-size-issue/#disqus_thread">Comment</a></span></div><!-- /.entry-meta -->
+    
+      <h1 class="entry-title"><a href="http://miao.li/excel-file-size-issue/" rel="bookmark" title="Excel文件过大的问题" itemprop="url">Excel文件过大的问题</a></h1>
+    
+  </header>
+  <div class="entry-content">
+    <p>工作需要处理大量Excel表格，然后有的时候会遇到以下的情况。</p>
+
+<ol>
+  <li>打开一个工作簿，发现没有什么内容，文件体积缺非常大，或者新增一张没有什么很多内容的工作表，体积却一下暴增</li>
+  <li>窗口右边的滑动按钮变得很小，稍微拖动但是Excel会移动很多。</li>
+</ol>
+
+<p>上面这两种情况都是因为Excel工作表中，那些你没有数据的区域也启用了，这些区域虽然没有数据，可能只是有设置格式，或者原本有数据，你用<kbd>Delete</kbd>键删除了，但是Excel并没有真正取消这些单元格，还是占用了空间的。
+那么怎么解决这个问题呢？有两个方法。</p>
+
+<ol>
+  <li>找到问题的工作表，然后将那些你看到的没有数据的区域的行或者（和）列删除掉。</li>
+  <li>使用插件。插件名字叫做<code>XSFormatCleaner.xla</code></li>
+</ol>
+
+<h2 id="section">手动删除方法</h2>
+<p>手动删除的话有个问题就是很难找到对应的工作表，因为就是有很多工作表的情况容易出现这样的问题，一个个去看的话，滑动鼠标滚轮，那些页面不流畅的工作表一般就是问题工作表。
+或者使用一个小代码。</p>
+
+<div class="highlight"><pre><code class="aspx-vb">Sub getlastcell()
+     For Each ws In ActiveWorkbook.Worksheets
+        output = output <span class="err">&amp;</span> ws.Name <span class="err">&amp;</span> vbTab <span class="err">&amp;</span> ws.UsedRange.Rows.Count <span class="err">&amp;</span> vbNewLine
+    next ws
+    debug.print output
+end sub
+</code></pre></div>
+
+<p>运行这段代码，会在即时窗口看到每个工作表的行，那些特别多行数<sup id="fnref:51"><a href="#fn:51" class="footnote">1</a></sup>的工作表就是问题工作表了。具体删除操作是</p>
+
+<p>选择这些问题工作表中的多余的行或者列，右击，选择删除，或者使用菜单中的<code>清除</code>&gt;<code>清除所有</code>，将所有工作表中的多余空白单元格删除后，重新打开工作簿就行了。</p>
+
+<h2 id="section-1">使用插件删除</h2>
+<p>这个插件叫做<a href="http://xsformatcleaner.codeplex.com/">XSFormatCleaner.xla</a>，下载启用这个插件，然后在新出现的<code>加载项</code>标签中点击新出现的那个按钮。等待它完成，根据表的大小，可能需要的时间不一样。完成后重新打开工作簿。</p>
+
+<p>参考: <a href="http://support.microsoft.com/kb/244435">http://support.microsoft.com/kb/244435</a></p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:51">
+      <p>上面的代码是针对行的，如果需要查看列的数据，将上面代码的rows改成columns。 <a href="#fnref:51" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->
@@ -290,29 +345,6 @@
 <p>但是，仅仅有一个问题，操作之后呢发现筛选出去的数据也除了1000，我第一次操作没有意识到有这个问题，所以，做出来的数据又全部有问题。这个问题怎么解决呢？方法就是 <kbd>ALT</kbd>+<kbd>;</kbd>键。
 这个快捷键会让Excel只选中可视区域，筛选的区域或者隐藏的区域不会被选择，所以这样操作的时候不会有问题。</p>
 
-
-  </div><!-- /.entry-content -->
-</article><!-- /.hentry -->
-
-<article class="hentry">
-  <header>
-    <div class="entry-meta"><span class="entry-date date published updated"><time datetime="2014-04-25T00:00:00+08:00"><a href="http://miao.li/ios/notesuite-review.md/">April 25, 2014</a></time></span><span class="author vcard"><span class="fn"><a href="http://miao.li/about/" title="About 李志渺">李志渺</a></span></span>&nbsp; &bull; &nbsp;<span class="entry-comments"><a href="http://miao.li/ios/notesuite-review.md/#disqus_thread">Comment</a></span></div><!-- /.entry-meta -->
-    
-      <h1 class="entry-title"><a href="http://miao.li/ios/notesuite-review.md/" rel="bookmark" title=" Notesuite 上手" itemprop="url"> Notesuite 上手</a></h1>
-    
-  </header>
-  <div class="entry-content">
-    <p>昨天晚上买了notesuite，0.99美元，用了之后感觉太糟糕，对中文支持不好，输入的时候不会直接显示文字，所以几乎不能使用中文。</p>
-
-<ol>
-  <li>NoteSuite功能相当的多，对待办事项支持应该比Evernote好，因为有单独的待办事项的界面设计</li>
-  <li>绘画功能比Notability做的强大，也好用一些。</li>
-  <li>界面设计还是有点粗糙。</li>
-  <li>有Mac同步app。</li>
-  <li>可能是对iPad Mini界面没有做优化，字体，界面按钮都太小。</li>
-</ol>
-
-<p>这个app现在是0.99美元促销，可能在Mac上购买了就可以入手了，其他的话，觉得这个比较糟糕，买Notability比较好。</p>
 
   </div><!-- /.entry-content -->
 </article><!-- /.hentry -->

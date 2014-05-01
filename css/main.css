@@ -158,3 +158,9 @@ a:visited { color: #a0a; }
 .post pre.terminal code {
   background-color: #333;
 }
+
+img.author-photo {
+  border-radius: 80px;
+  -moz-border-radius:80px;
+  -webkit-border-radius:80px;
+}
